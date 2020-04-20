@@ -9,6 +9,8 @@ import Counter from "./Counter";
 import Conditional from "./Conditional";
 import Messages from "./component/Messages";
 import LogConditional from "./component/LogConditional";
+import Form from "./component/Form";
+
 
 // for fetch api
 // https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/fetch
@@ -134,6 +136,7 @@ class App extends React.Component{
 	            }
 	            <LogConditional />
 	            <div>{pokemonApiResult}</div>
+	            <Form />
 	            <Messages />
 	            <ContactGroup />
 	            <QNA />
