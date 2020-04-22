@@ -10,6 +10,8 @@ import Conditional from "./Conditional";
 import Messages from "./component/Messages";
 import LogConditional from "./component/LogConditional";
 import Form from "./component/Form";
+import BobForm from "./component/BobForm";
+
 
 
 // for fetch api
@@ -138,6 +140,7 @@ class App extends React.Component{
 	            <div>{pokemonApiResult}</div>
 	            <Form />
 	            <Messages />
+	            <BobForm />
 	            <ContactGroup />
 	            <QNA />
 	            <Footer />
