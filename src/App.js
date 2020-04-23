@@ -10,9 +10,9 @@ import Conditional from "./Conditional";
 import Messages from "./component/Messages";
 import LogConditional from "./component/LogConditional";
 import Form from "./component/Form";
-import BobForm from "./component/BobForm";
+import BobFormContainer from "./component/BobFormContainer";
 
-
+// https://medium.com/@dan_abramov/smart-and-dumb-components-7ca2f9a7c7d
 
 // for fetch api
 // https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/fetch
@@ -140,7 +140,7 @@ class App extends React.Component{
 	            <div>{pokemonApiResult}</div>
 	            <Form />
 	            <Messages />
-	            <BobForm />
+	            <BobFormContainer />
 	            <ContactGroup />
 	            <QNA />
 	            <Footer />
