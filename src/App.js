@@ -12,6 +12,10 @@ import LogConditional from "./component/LogConditional";
 import Form from "./component/Form";
 import BobFormContainer from "./component/BobFormContainer";
 import MemeGenerator from "./component/Memegen/MemeGenerator";
+import HookApp from "./component/Hooks/HookApp";
+import HookCount from "./component/Hooks/HookCount";
+
+
 
 
 // https://medium.com/@dan_abramov/smart-and-dumb-components-7ca2f9a7c7d
@@ -129,6 +133,8 @@ class App extends React.Component{
 		const pokemonApiResult= this.state.isApiLoading ? "Loading.." : this.state.pokemons.name ;
 	    return (
 	        <div>
+	        	<HookApp/>
+	        	<HookCount/>
 	        	<MemeGenerator />
 	            <Header />
 	            
