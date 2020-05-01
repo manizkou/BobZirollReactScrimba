@@ -15,8 +15,15 @@ import MemeGenerator from "./component/Memegen/MemeGenerator";
 import HookApp from "./component/Hooks/HookApp";
 import HookCount from "./component/Hooks/HookCount";
 
+// React Project Ideas
 
+// https://medium.freecodecamp.org/every-time-you-build-a-to-do-list-app-a-puppy-dies-505b54637a5d
 
+// https://medium.freecodecamp.org/want-to-build-something-fun-heres-a-list-of-sample-web-app-ideas-b991bce0ed9a
+
+// https://medium.freecodecamp.org/summer-is-over-you-should-be-coding-heres-yet-another-list-of-exciting-ideas-to-build-a95d7704d36d
+
+// React Project Ideas
 
 // https://medium.com/@dan_abramov/smart-and-dumb-components-7ca2f9a7c7d
 

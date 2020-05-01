@@ -29,10 +29,22 @@ function HookCount(){
     // },[])
 
     useEffect(()=>{
+
+        const intervalId=setInterval(()=>{
+             setCount(prevState=>prevState+1)
+        },1000);
+
+        return ()=> clearInterval(intervalId);
+    },[])
+
+    useEffect(()=>{
+        // setInterval(
+        //     setCount(prevState=>prevState+1)
+        //     ,1000);
         setColor(randomcolor());
-        setInterval(()=>{
-            console.log('Interval');
-        },1000)
+        // setInterval(()=>{
+        //     console.log('Interval');
+        // },1000)
     },[count])
 
     function increment(){
